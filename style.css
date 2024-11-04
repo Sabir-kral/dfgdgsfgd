@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./WhatsApp\ Görsel\ 2024-11-02\ saat\ 17.10.56_19de99ce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: brawl-stars 1.5s ease 0s 1 normal forwards;
+}
+@keyframes brawl-stars {
+	0% {
+		background-position: 50% 100%;
+	}
+
+	100% {
+		background-position: 50% 0%;
+	}
+}
+.container{
+    width: 90vw;
+    height: 50vh;
+display: flex;
+justify-content: space-around;
+margin: 0 auto;
+}
+img{
+    width: 10vw;
+    height: 20vh;
+    animation: karakter 2s ease 3s 1 normal forwards;
+    position: absolute;
+    top: -200px;
+}
+@keyframes karakter {
+    0%{
+        transform: skew(20deg);
+    }
+100%{
+transform: translateY(300px);
+
+}
+}
+p{
+    animation: karakter-iki 2s ease 3s 1 normal forwards;
+    position: absolute;
+    top: -200px;
+    color: white;
+}
+@keyframes karakter-iki {
+    0%{
+        transform: skew(20deg);
+    }
+100%{
+transform: translateY(500px);
+
+}
+}
